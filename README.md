@@ -42,12 +42,5 @@
 
 **Settings · Enabled Mods · Important · Movement · Advantages · Guns · Visuals · Desktop · Troll · Media · Objects · Fun**
 
-## 🛠️ Building from source
-
-Open the project, make sure the paths in `RivenMenu.csproj` point at your Gorilla Tag install, and build. The compiled DLL is copied into `BepInEx/plugins` automatically.
-
-Add your own mods by dropping a `public static void` with a `[MenuButton(...)]` attribute into any file in the `Mods` folder — it shows up in the menu on its own.
-
----
 
 <p align="center"><i>Have fun — and don't be a pain to other players. 💜</i></p>
