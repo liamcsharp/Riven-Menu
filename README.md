@@ -43,4 +43,4 @@
 **Settings · Enabled Mods · Important · Movement · Advantages · Guns · Visuals · Desktop · Troll · Media · Objects · Fun**
 
 
-<p align="center"><i>Have fun — and don't be a pain to other players. 💜</i></p>
+<p align="center"><i>Have fun — and be a pain to other players. 💜</i></p>
