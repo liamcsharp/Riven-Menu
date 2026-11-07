@@ -1,46 +1,49 @@
-<p align="center">
-  <img src="assets/riven_logo.png" width="130" alt="Riven Menu">
-</p>
+# Riven Menu v3.0.0
 
-<h1 align="center">Riven Menu</h1>
+The biggest Riven update yet: a new look, 100+ new mods, known player alerts, Riven user ESP and webhook support.
 
-<p align="center">A clean, animated mod menu for Gorilla Tag — built on BepInEx.</p>
+## New look
+- **New screen menu**: Riven logo header, category sidebar with "on" counts, mod cards with descriptions, smooth scrolling, search, and a status bar with mods on, room and FPS
+- **New wrist menu**: same style, big category arrows at the top, 6 mods per page, tap with your right hand
+- **Popups in VR**: notifications now float in front of you in the headset
+- **8 new themes**: Aurora, Sakura, Neon, Abyss, Royal, Peach, Emerald, Ice Violet
+- **New settings**: Accent Color, Corner Style, Menu Surface (solid or glass), ESP Color
 
-<p align="center">
-  <a href="https://discord.gg/RhUymsys9e">Discord</a> ·
-  <a href="https://github.com/liamcsharp/Riven-Menu">GitHub</a>
-</p>
+## Players (new tab)
+- **Known People Alerts**: get a popup when someone from the known people list is in your lobby
+- **Known People Tags**: gold name tags over known players
+- **Riven User ESP**: see the Riven logo over other Riven users (off by default, both players need it on)
+- **Riven User Alerts**, **Player List HUD**, **Check Lobby**, **Copy Player IDs**
 
----
+## Webhook (new tab)
+- Paste your own Discord webhook and choose what gets posted: room joins, room leaves, known people, Riven users, game launch
+- Test message, status, and forget webhook buttons
+- Only posts to the webhook you add
 
-## 🆕 Update 2.2
+## Rig (new tab, 49 mods)
+- **Poses**: T-Pose, Zombie Arms, Hands Up, Wave, Clap, Dab, Salute, Pray, Thinking, Hug and more
+- **Dances**: Flap Arms, Swim, Windmill, Jumping Jacks, Boxing, Drum Roll, Sway Dance
+- **Body**: Backflip and Frontflip loops, Cartwheel, Lay Down, Moonwalk, Floating Body, Body Orbits You, Matrix Lean and more
+- **Head**: Nod Yes, Shake No, Owl Head, Bobblehead, Look At Closest, Crazy Eyes and more
+- **Reset Rig** button
 
-- **Wrist Menu** — the classic rounded menu, now on your left wrist. Press **Y** on your left controller to open it. Use the **left stick** to move, **left trigger** to select, and push the **stick left** to go back.
-- **Welcome Splash** — the Riven logo splits apart with a voiceover when you launch the game.
-- **Music Player** — play your own songs in-game with a song name, seek bar, play/pause, skip and ±10s. Drop `.mp3`, `.wav` or `.ogg` files into the **RivenMusic** folder (next to the game's exe), or hit *Open Music Folder* in the menu.
-- **Spawnable Objects** — spawn props only **you** can see and grab them with grip to fling them around. Ball, Beach Ball, Crate, Boulder, Banana, Rubber Chicken, Cone, Balloon, Dumbbell, Dice, Hammer and Donut, plus a spawn gun.
-- **Wrist FPS & Ping** — your FPS and ping on your wrist and on screen.
-- **Smoother menu** — the desktop menu now opens and closes with an animation, and you can pick your own button click sound.
-- Discord Rich Presence has been removed.
+## Name Tags (new tab)
+- Choose what tags show: Name, Name + Distance, Name + Status, or Everything
+- Size, height, through walls, tagged icon, speed, color codes, player IDs, hide or fade far tags
+- Distance Tags and Tagger Labels
 
-## 🎮 Controls
+## New visuals
+- Radar, Off-Screen Arrows, 2D Box ESP, Watermark, Tagger Warning (controllers buzz as taggers get close)
+- Player Trails, Tagged Halos, Ground Rings, Look Lines, Closest Player Line, Night Vision, Rainbow Players
 
-| Action | Key |
-| --- | --- |
-| Open/close desktop menu | **M** |
-| Open/close wrist menu | **Y** (left controller) |
-| Turn off every mod | **Esc** or the power button |
+## New guns (only you can see them)
+- Paint, Laser, Explosion, Firework, Marker and Measure guns
 
-## 📥 Install
+## Fixes
+- Less lag from ESP and name tags
+- Wrist menu footer no longer sits outside the panel
 
-1. Install [BepInEx](https://docs.bepinex.dev/) for Gorilla Tag.
-2. Run the game once to let BepInEx generate its folders.
-3. Drop **RivenMenu.dll** into `BepInEx/plugins`.
-4. Launch the game — you'll see the welcome splash when it loads.
-
-## 🗂️ Tabs
-
-**Settings · Enabled Mods · Important · Movement · Advantages · Guns · Visuals · Desktop · Troll · Media · Objects · Fun**
-
-
-<p align="center"><i>Have fun — and be a pain to other players. 💜</i></p>
+## Install
+1. Install [BepInEx](https://github.com/BepInEx/BepInEx) for Gorilla Tag
+2. Drop `RivenMenu.dll` into `BepInEx/plugins`
+3. Launch the game and press **M** on PC or **Y** in VR to open the menu
